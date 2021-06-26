@@ -1,0 +1,1 @@
+db.nbd.find({"$expr" : {"$gte" : [{"$toDate" :"$birth_date"} , ISODate("2001-01-01T00:00:00Z")]}},{"first_name":1,"last_name":1,"location.city":1})

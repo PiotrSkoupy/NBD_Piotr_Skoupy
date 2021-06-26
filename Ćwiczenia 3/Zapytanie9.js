@@ -1,0 +1,1 @@
+db.nbd.update( {"first_name":"Antonio"}, {$push: {"hobby": "pingpong"}},{"multi":true} )

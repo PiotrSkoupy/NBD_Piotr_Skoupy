@@ -1,0 +1,1 @@
+db.nbd.remove({"$expr" : {"$gt" : [{"$toDecimal" :"$height"} , 190]}})

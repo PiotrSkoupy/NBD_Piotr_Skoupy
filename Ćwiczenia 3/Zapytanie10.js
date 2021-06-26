@@ -1,0 +1,1 @@
+db.nbd.update({ job: 'Editor' },{ $unset: { email: true } },{ multi: true })
