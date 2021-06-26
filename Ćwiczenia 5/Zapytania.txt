@@ -1,0 +1,30 @@
+Zadanie 1
+MATCH (n) RETURN n
+
+Zadanie 2
+MATCH (ACTED_IN {name: 'Hugo Weaving'})--(Movie)
+RETURN Movie.title
+
+Zadanie3
+MATCH (hugo {name: 'Hugo Weaving'})-[:ACTED_IN]->(movie)<-[:DIRECTED]-(director)
+RETURN director.name
+
+Zadanie 4
+MATCH (hugo {name: 'Hugo Weaving'})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(actor)
+RETURN actor.name
+
+Zadanie5
+MATCH (matrix:Movie {title: 'The Matrix'})<-[:ACTED_IN]-(actor)
+RETURN actor.name
+
+Zadanie6
+MATCH (movie:Movie)<-[:ACTED_IN]-(actor)
+RETURN actor.name
+
+Zadanie7
+MATCH (person:Person)-[:WROTE]->(movie)<-[:DIRECTED]-(person)
+RETURN movie.title, person.name
+
+Zadanie8
+MATCH (hugo {name: 'Hugo Weaving'})-[:ACTED_IN]->(movie)<-[:ACTED_IN]-(keanu {name: 'Keanu Reeves'})
+RETURN movie.title
