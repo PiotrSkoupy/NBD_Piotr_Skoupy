@@ -1,0 +1,1 @@
+db.nbd.aggregate({  $group: { _id: '$job' }})

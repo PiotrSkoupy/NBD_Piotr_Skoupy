@@ -1,0 +1,219 @@
+{ _id: 'RUB',
+  total: Decimal128("119749.15"),
+  avarage: Decimal128("4989.547916666666666666666666666667") }
+{ _id: 'MGA',
+  total: Decimal128("14560.99"),
+  avarage: Decimal128("4853.663333333333333333333333333333") }
+{ _id: 'UZS',
+  total: Decimal128("3573.03"),
+  avarage: Decimal128("3573.03") }
+{ _id: 'XPF',
+  total: Decimal128("4759.07"),
+  avarage: Decimal128("4759.07") }
+{ _id: 'COP',
+  total: Decimal128("19746.73"),
+  avarage: Decimal128("4936.6825") }
+{ _id: 'BRL',
+  total: Decimal128("49632.02"),
+  avarage: Decimal128("4512.001818181818181818181818181818") }
+{ _id: 'CZK',
+  total: Decimal128("37156.42"),
+  avarage: Decimal128("4644.5525") }
+{ _id: 'NGN',
+  total: Decimal128("24946.23"),
+  avarage: Decimal128("4157.705") }
+{ _id: 'CLP',
+  total: Decimal128("21008.95"),
+  avarage: Decimal128("5252.2375") }
+{ _id: 'YER',
+  total: Decimal128("13712.50"),
+  avarage: Decimal128("4570.833333333333333333333333333333") }
+{ _id: 'BGN',
+  total: Decimal128("21200.88"),
+  avarage: Decimal128("5300.22") }
+{ _id: 'BYR',
+  total: Decimal128("5095.79"),
+  avarage: Decimal128("5095.79") }
+{ _id: 'GTQ',
+  total: Decimal128("5806.3"),
+  avarage: Decimal128("5806.3") }
+{ _id: 'UAH',
+  total: Decimal128("40471.84"),
+  avarage: Decimal128("5058.98") }
+{ _id: 'ALL',
+  total: Decimal128("3325.48"),
+  avarage: Decimal128("3325.48") }
+{ _id: 'ZAR',
+  total: Decimal128("11790.92"),
+  avarage: Decimal128("3930.306666666666666666666666666667") }
+{ _id: 'XAF',
+  total: Decimal128("14094.66"),
+  avarage: Decimal128("4698.22") }
+{ _id: 'NOK',
+  total: Decimal128("4773.66"),
+  avarage: Decimal128("4773.66") }
+{ _id: 'CUP',
+  total: Decimal128("15017.34"),
+  avarage: Decimal128("5005.78") }
+{ _id: 'KYD',
+  total: Decimal128("3760.89"),
+  avarage: Decimal128("3760.89") }
+{ _id: 'ARS',
+  total: Decimal128("23242.00"),
+  avarage: Decimal128("4648.40") }
+{ _id: 'RSD',
+  total: Decimal128("4276.56"),
+  avarage: Decimal128("4276.56") }
+{ _id: 'IQD',
+  total: Decimal128("4269.39"),
+  avarage: Decimal128("4269.39") }
+{ _id: 'PYG',
+  total: Decimal128("4874.69"),
+  avarage: Decimal128("4874.69") }
+{ _id: 'IDR',
+  total: Decimal128("323922.59"),
+  avarage: Decimal128("4907.918030303030303030303030303030") }
+{ _id: 'CDF',
+  total: Decimal128("12228.8"),
+  avarage: Decimal128("6114.4") }
+{ _id: 'SRD',
+  total: Decimal128("5286.68"),
+  avarage: Decimal128("5286.68") }
+{ _id: 'MKD',
+  total: Decimal128("3835.05"),
+  avarage: Decimal128("3835.05") }
+{ _id: 'ZWL',
+  total: Decimal128("5792.17"),
+  avarage: Decimal128("5792.17") }
+{ _id: 'VND',
+  total: Decimal128("36160.26"),
+  avarage: Decimal128("4520.0325") }
+{ _id: 'NZD',
+  total: Decimal128("5328.46"),
+  avarage: Decimal128("5328.46") }
+{ _id: 'TJS',
+  total: Decimal128("4087.71"),
+  avarage: Decimal128("4087.71") }
+{ _id: 'MMK',
+  total: Decimal128("4629.42"),
+  avarage: Decimal128("4629.42") }
+{ _id: 'ISK',
+  total: Decimal128("4316.41"),
+  avarage: Decimal128("4316.41") }
+{ _id: 'MAD',
+  total: Decimal128("3818.85"),
+  avarage: Decimal128("3818.85") }
+{ _id: 'VUV',
+  total: Decimal128("6418.27"),
+  avarage: Decimal128("6418.27") }
+{ _id: 'BOB',
+  total: Decimal128("5263.3"),
+  avarage: Decimal128("5263.3") }
+{ _id: 'TZS',
+  total: Decimal128("7052.37"),
+  avarage: Decimal128("3526.185") }
+{ _id: 'IRR',
+  total: Decimal128("26504.24"),
+  avarage: Decimal128("4417.373333333333333333333333333333") }
+{ _id: 'USD',
+  total: Decimal128("74680.98"),
+  avarage: Decimal128("4978.732") }
+{ _id: 'PLN',
+  total: Decimal128("90770.78"),
+  avarage: Decimal128("5042.821111111111111111111111111111") }
+{ _id: 'BWP',
+  total: Decimal128("4076.29"),
+  avarage: Decimal128("4076.29") }
+{ _id: 'ETB',
+  total: Decimal128("5436.11"),
+  avarage: Decimal128("5436.11") }
+{ _id: 'VEF',
+  total: Decimal128("8333.28"),
+  avarage: Decimal128("4166.64") }
+{ _id: 'JPY',
+  total: Decimal128("60944.74"),
+  avarage: Decimal128("5078.728333333333333333333333333333") }
+{ _id: 'KZT',
+  total: Decimal128("3788.95"),
+  avarage: Decimal128("3788.95") }
+{ _id: 'NIO',
+  total: Decimal128("9971.28"),
+  avarage: Decimal128("4985.64") }
+{ _id: 'MWK',
+  total: Decimal128("3574.42"),
+  avarage: Decimal128("3574.42") }
+{ _id: 'MXN',
+  total: Decimal128("50229.00"),
+  avarage: Decimal128("5022.90") }
+{ _id: 'GBP',
+  total: Decimal128("6149.19"),
+  avarage: Decimal128("6149.19") }
+{ _id: 'SEK',
+  total: Decimal128("70840.19"),
+  avarage: Decimal128("5060.013571428571428571428571428571") }
+{ _id: 'THB',
+  total: Decimal128("23021.96"),
+  avarage: Decimal128("4604.392") }
+{ _id: 'EGP',
+  total: Decimal128("5579.3"),
+  avarage: Decimal128("5579.3") }
+{ _id: 'AFN',
+  total: Decimal128("16755.49"),
+  avarage: Decimal128("5585.163333333333333333333333333333") }
+{ _id: 'MNT',
+  total: Decimal128("21715.61"),
+  avarage: Decimal128("5428.9025") }
+{ _id: 'PKR',
+  total: Decimal128("18938.00"),
+  avarage: Decimal128("4734.50") }
+{ _id: 'KRW',
+  total: Decimal128("13379.82"),
+  avarage: Decimal128("6689.91") }
+{ _id: 'AMD',
+  total: Decimal128("24609.33"),
+  avarage: Decimal128("4921.866") }
+{ _id: 'EUR',
+  total: Decimal128("245091.47"),
+  avarage: Decimal128("4901.8294") }
+{ _id: 'ZMW',
+  total: Decimal128("5569.56"),
+  avarage: Decimal128("5569.56") }
+{ _id: 'CNY',
+  total: Decimal128("470700.38"),
+  avarage: Decimal128("4954.740842105263157894736842105263") }
+{ _id: 'RWF',
+  total: Decimal128("4632.88"),
+  avarage: Decimal128("4632.88") }
+{ _id: 'MYR',
+  total: Decimal128("4781.12"),
+  avarage: Decimal128("4781.12") }
+{ _id: 'XOF',
+  total: Decimal128("17882.05"),
+  avarage: Decimal128("5960.683333333333333333333333333333") }
+{ _id: 'NPR',
+  total: Decimal128("5792.26"),
+  avarage: Decimal128("5792.26") }
+{ _id: 'LYD',
+  total: Decimal128("8764.99"),
+  avarage: Decimal128("4382.495") }
+{ _id: 'HNL',
+  total: Decimal128("16514.59"),
+  avarage: Decimal128("5504.863333333333333333333333333333") }
+{ _id: 'PEN',
+  total: Decimal128("18644.94"),
+  avarage: Decimal128("4661.235") }
+{ _id: 'ILS',
+  total: Decimal128("16295.49"),
+  avarage: Decimal128("5431.83") }
+{ _id: 'HRK',
+  total: Decimal128("24354.82"),
+  avarage: Decimal128("4870.964") }
+{ _id: 'DOP',
+  total: Decimal128("20674.74"),
+  avarage: Decimal128("5168.685") }
+{ _id: 'CAD',
+  total: Decimal128("58375.60"),
+  avarage: Decimal128("5306.872727272727272727272727272727") }
+{ _id: 'PHP',
+  total: Decimal128("118606.28"),
+  avarage: Decimal128("4941.928333333333333333333333333333") }

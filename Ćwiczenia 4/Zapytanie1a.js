@@ -1,0 +1,1 @@
+db.nbd.aggregate( [{$group: { _id: "$sex", sredniaWaga: {$avg: {"$toDecimal" :"$weight"}}, sredniWzrost: {$avg: {"$toDecimal" :"$height"}}}}])
