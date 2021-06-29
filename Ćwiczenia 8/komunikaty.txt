@@ -1,0 +1,36 @@
+CREATE DOCUMENT
+<Response [204]>
+{'Vary': 'Accept-Encoding', 'Server': 'MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)', 'Date': 'Tue, 29 Jun 2021 22:14:17 GMT', 'Content-Type': 'application/json', 'Content-Length': '0', 'Content-Encoding': 'gzip'}
+b''
+
+RETRIEVE DOCUMENT
+<Response [200]>
+{'X-Riak-Vclock': 'a85hYGBgzGDKBVI8+xkWvud9P8MOyGbKYEpkymNlsBQPuMWXBQA=', 'Vary': 'Accept-Encoding', 'Server': 'MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)', 'Link': '</buckets/s23703>; rel="up"', 'Last-Modified': 'Tue, 29 Jun 2021 22:14:17 GMT', 'ETag': '"3Q0IW7aNJfYgdoGJgllPwM"', 'Date': 'Tue, 29 Jun 2021 22:14:17 GMT', 'Content-Type': 'application/json', 'Content-Length': '52', 'Content-Encoding': 'gzip'}
+b'{"a": "g", "b": 7, "c": 8.0, "d": null}'
+
+PRINT RETRIEVED DOCUMENT
+{'a': 'g', 'b': 7, 'c': 8.0, 'd': None}
+
+MODIFY DOCUMENT
+<Response [204]>
+{'Vary': 'Accept-Encoding', 'Server': 'MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)', 'Date': 'Tue, 29 Jun 2021 22:14:17 GMT', 'Content-Type': 'application/json', 'Content-Length': '0', 'Content-Encoding': 'gzip'}
+b''
+
+RETRIEVE MODIFIED DOCUMENT
+<Response [200]>
+{'X-Riak-Vclock': 'a85hYGBgzGDKBVI8+xkWvud9P8MOyGbKYEpkzmNlsBQPuMWXBQA=', 'Vary': 'Accept-Encoding', 'Server': 'MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)', 'Link': '</buckets/s23703>; rel="up"', 'Last-Modified': 'Tue, 29 Jun 2021 22:14:17 GMT', 'ETag': '"575KIcfffpa1zyiMgmrQVC"', 'Date': 'Tue, 29 Jun 2021 22:14:17 GMT', 'Content-Type': 'application/json', 'Content-Length': '51', 'Content-Encoding': 'gzip'}
+b'{"a": "f", "b": 8, "c": 8.0, "d": null}'
+
+PRINT RETRIEVED MODIFIED DOCUMENT
+{'a': 'f', 'b': 8, 'c': 8.0, 'd': None}
+
+DELETE DOCUMENT
+<Response [204]>
+{'Vary': 'Accept-Encoding', 'Server': 'MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)', 'Date': 'Tue, 29 Jun 2021 22:14:17 GMT', 'Content-Type': 'application/json', 'Content-Length': '0', 'Content-Encoding': 'gzip'}
+b''
+
+RETRIEVE DELETED DOCUMENT
+<Response [404]>
+{'X-Riak-Vclock': 'a85hYGBgzGDKBVI8+xkWvud9P8MOyGbKYEpkyWNlsBQPuMWXBQA=', 'X-Riak-Deleted': 'true', 'Server': 'MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)', 'Date': 'Tue, 29 Jun 2021 22:14:17 GMT', 'Content-Type': 'text/plain', 'Content-Length': '10'}
+b'not found\n'
+
