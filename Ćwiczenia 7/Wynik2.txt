@@ -1,0 +1,13 @@
+C:\Users\Piotrek>curl -i http://127.0.0.1:8098/buckets/s23703/keys/doc1
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvud9P8MOIpTImsfKMGeb/y2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23703>; rel="up"
+Last-Modified: Tue, 29 Jun 2021 15:22:04 GMT
+ETag: "xiUvb6jdMLvWsyglmi5Zv"
+Date: Tue, 29 Jun 2021 15:23:28 GMT
+Content-Type: application/json
+Content-Length: 24
+
+'{a:f,b:6,c:7.0,d:null}'
